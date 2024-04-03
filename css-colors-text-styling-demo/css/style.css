@@ -1,0 +1,15 @@
+#first-paragraph {
+    color: green;
+    background-color: #ffe1be;
+}
+
+#second-paragraph {
+    color: teal;
+    background-color: #000;
+}
+
+#bold {
+    font-weight: bold;
+    color: navy;
+    background-color: #ff000055;
+}
