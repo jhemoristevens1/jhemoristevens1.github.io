@@ -27,3 +27,62 @@
     padding: 24px;
 }
 
+#head2 {
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#c4 {
+    background-color: #931621;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#c5 {
+    background-color: #28464B;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#c6 {
+    background-color: #326771;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#head3 {
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+#c7 {
+    background-color: #CFF27E;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+
+#c8 {
+    background-color: #F2DD6E;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+
+#c9 {
+    background-color: #E5B25D;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
