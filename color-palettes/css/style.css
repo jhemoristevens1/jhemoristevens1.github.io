@@ -1,3 +1,29 @@
-body {
-    background-color: red;
+#head1 {
+    font-family: monospace;
+    text-align: center;
 }
+
+#c1 {
+    background-color: #253C78;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#c2 {
+    background-color: #2B59C3;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#c3 {
+    background-color: #D36582;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
