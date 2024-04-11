@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+}
+
+.light-container {
+    background-color: rgb(1, 1, 51);
+    padding: 48px;
+}
+
+.green-container {
+    background-color: seagreen;
+    padding: 24px;
+}
+
+.lightblue-container {
+    background-color: lightskyblue;
+    padding: 24px;
+}
+
+.orange-container {
+    background-color: goldenrod;
+    padding: 24px;
+}
