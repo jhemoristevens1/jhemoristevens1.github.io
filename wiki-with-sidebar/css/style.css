@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: monospace;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar {
+    background-color: lemonchiffon;
+    width: 200px;
+    padding: 24px;
+    border-radius: 5px solid black;
+    margin: 8px;
+    height: 250px;
+}
+
+#sidebar h2 {
+    background-color: goldenrod;
+    padding: 8px 16px;
+    margin: 0px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sidebar ul a {
+    color: black;
+    text-decoration: none
+}
+
+#sidebar ul li {
+    padding: 4px 0px
+}
+
+#main-content {
+    padding: 48px;
+    flex: 1;
+}
+
+#kratos, #athena, #ares {
+    font-weight: bolder;
+}
+
+#chaos, #artemis, #gods {
+    font-weight: bolder;
+}
+
+#rage, #gaze, #fury {
+    font-weight: bolder;
+}
