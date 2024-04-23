@@ -7,4 +7,63 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+ * {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#section-1 {
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.card-style-1 {
+    width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px #00000088;
+    background-color: rgb(237, 250, 237);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-style-1 h2 {
+    text-align: center;
+}
+
+.card-style-1 p {
+    text-align: left;
+    margin: 16px;
+    flex: 1;
+}
+
+.card-style-1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-style-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid green;
+    background-color: green;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+.card-style-1 a:hover {
+    background-color: transparent;
+    color: green;
+}
