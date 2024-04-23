@@ -7,7 +7,36 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+
 * {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-3 {
+    max-width: 358px;
+    padding: 24px;
+    margin: 16px;
+    flex: 1;
+}
+
+.card-style-3 .pokemon-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-style-3 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-style-3 h2,
+.card-style-3 p {
+    text-align: center;
+    padding: 0px 36px;
+}
