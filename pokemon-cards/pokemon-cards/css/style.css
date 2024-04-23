@@ -7,3 +7,7 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+* {
+    box-sizing: border-box;
+}
+
