@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Mochiy+Pop+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -7,9 +8,139 @@ body {
     font-family: sans-serif;
 }
 
+.container {
+    width: 100%;
+    max-width: 1850px;
+    margin: 0px auto;
+}
+
 #dog-hero {
     background-image: url(../images/victor-grabarczyk-N04FIfHhv_k-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     background-position: right;
+    display: flex;
+    align-items: center;
+}
+
+#dog-hero h1 {
+    font-family: "Mochiy Pop One", sans-serif;
+    margin: 0px;
+    font-size: 70px;
+}
+
+#dog-hero p {
+    margin: 10px 0px 20px;
+}
+
+#dog-hero .btn {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+} 
+
+#dog-hero .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#car-hero {
+    background-image: url(../images/joppe-spaa-CW_K7JUhvaI-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    background-position: center;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+#car-hero .container {
+    width: max-content;
+    margin: 0px;
+    padding-bottom: 100px;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+#car-hero h1 {
+    font-family: "Jersey 25", sans-serif;
+    margin: 0px;
+    font-size: 100px;
+}
+
+#car-hero p {
+    margin: 10px 0px 20px;
+}
+
+#car-hero a {
+    display: inline-block;
+    border: 2px solid goldenrod;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: goldenrod;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+
+#car-hero a:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+#ocean-hero {
+    background-image: url(../images/matt-hardy-6ArTTluciuA-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#ocean-hero h1 {
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 3vh;
+    margin-right: 5vw;
+    font-size: 8vw;
+}
+
+#ocean-hero p {
+    margin: 0px 5vw 0px 0px;
+    font-size: 3vw;
+}
+
+#ocean-hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+} 
+
+#ocean-hero a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
