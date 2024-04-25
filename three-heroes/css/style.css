@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#dog-hero {
+    background-image: url(../images/victor-grabarczyk-N04FIfHhv_k-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: right;
+}
