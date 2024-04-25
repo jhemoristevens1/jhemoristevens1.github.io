@@ -5,4 +5,44 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(163, 74, 133);
+}
+
+#hero {
+    background-image: url(../images/photo-1432958576632-8a39f6b97dc7.avif);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h1 {
+    background-color: rgba(250, 124, 152, 0.904);
+    color: white;
+    padding: 15px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#layout h3 {
+    color: white;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    border: 10px solid lightcoral;
+    padding: 24px;
+}
+
+.grid-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
