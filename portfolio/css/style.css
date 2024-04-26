@@ -3,9 +3,10 @@
 }
 
 body {
+    background: linear-gradient(-50deg, #000, #231407, #33261d, 
+    #514337, #736451);
     margin: 0px;
     font-family: sans-serif;
-    background-color: rgb(23, 14, 31);
 }
 
 .container {
@@ -13,7 +14,6 @@ body {
     max-width: 1850px;
     margin: 0px auto;
     text-align: center;
-
 }
 
 #hero {
@@ -26,44 +26,64 @@ body {
 }
 
 #hero h2 {
-    color: rgb(93, 189, 245);
+    color: #fdfcff;
     margin-bottom: 3vh;
     margin-right: 5vw;
     font-size: 6vw;
 }
 
 #hero h2 span {
-    color: rgb(42, 126, 204);
+    color:  #684d36;
 }
 
 #hero p {
-    color: rgb(93, 189, 245);
+    color: #ffffff;
     font-size: 2vw;
 }
 
-#hero .btn {
-    display: inline-block;
+main {
+    background: linear-gradient(-50deg, #000, #231407, #33261d, 
+    #514337, #736451);
+}
+
+#cards {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards .contain {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#cards .card {
+    background-color: #dec79d;
     flex: 1;
-    max-width: 300px;
-    border: 4px solid rgb(42, 126, 204);
-    border-radius: 15px;
-    color: rgb(93, 189, 245);
-    text-decoration: none;
-    box-shadow: 4px 4px 8px rgb(16, 80, 139);
-    margin: 5vh 5vw 10vh 0px;
-    padding: 15px 25px;
-    font-weight: 600;
-    font-size: 1.5vw;
-    text-align: center;
+    aspect-ratio: 1 / 1;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 8px rgb(26, 12, 1);
     transition: 
-        background-color 0.5s,
-        color 0.5s
+        background-color 0.5s
+        color 0.5
     ;
 }
 
-#hero .btn:hover {
-    background-color: rgb(42, 126, 204);
-    color: white;
+#cards .card:hover {
+    background: #f3efe8;
+}
+
+.card a {
+    color: #684d36;
+    text-decoration: none;
+    font-size: 6vw;
+    padding: 50px;
 }
 
 #layout {
@@ -79,13 +99,40 @@ body {
 .grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-    border: 10px solid rgb(42, 126, 204);
+    gap: 10px;
+    border: 10px solid #684d36;
     padding: 24px;
 }
 
 .grid-gallery img {
     width: 100%;
+    aspect-ratio: 1;
     height: 100%;
     object-fit: cover;
+}
+
+#layout .btn {
+    display: inline-block;
+    flex: 1;
+    max-width: 300px;
+    border: 4px solid #684d36;
+    border-radius: 15px;
+    background-color: #dec79d;
+    color: #684d36;
+    text-decoration: none;
+    box-shadow: 4px 4px 8px rgb(26, 12, 1);
+    margin: 5vh 5vw 10vh 0px;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: 1.5vw;
+    text-align: center;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+
+#layout .btn:hover {
+    background-color: rgb(250, 250, 250);
+    color: #684d36;
 }
