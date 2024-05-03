@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,6 +6,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(../images/nick-fewings-_uYKQgWkMS0-unsplash.jpg);
+    background-position: center;
 }
 
 #header {
@@ -36,6 +39,7 @@ body {
 
 #navbar #logo {
     margin-right: auto;
+    font-family: "Mochiy Pop One", sans-serif;
 }
 
 #pet-hero {
@@ -48,7 +52,7 @@ body {
 }
 
 #pet-hero h1 {
-    font-family: "", sans-serif;
+    font-family: "Mochiy Pop One", sans-serif;
     margin: 0px;
     font-size: 70px;
 }
@@ -67,15 +71,15 @@ body {
 .card {
     background: linear-gradient(to 
         bottom, 
-        #f6a19285,
-        #f6c49279, 
-        #f6d09280
+        #ebc0b9ef,
+        #eed5bccc, 
+        #f5ecdfea
     );
     width: 450px;
     border: 3px solid black;
     padding: 24px;
-    box-shadow: -4px 4px 12px #CEAAAA;
-    margin: 50px;
+    box-shadow: -4px 4px 12px #000000;
+    margin: 50px auto;
     border-radius: 12px;
     text-align: center;
 }
@@ -89,8 +93,13 @@ body {
 .card h2 {
     font-size: 36px;
     margin-top: 12px;
+    font-family: "Mochiy Pop One", sans-serif;
 }
 
 .card p {
     font-size: 18px;
+}
+
+@media screen and () {
+    
 }
