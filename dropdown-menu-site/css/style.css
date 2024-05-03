@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 6px solid black;
+    border-bottom: 5px solid black;
 }
 
 #navbar a {
@@ -59,7 +59,8 @@ body {
 }
 
 #cards-container {
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -70,10 +71,11 @@ body {
         #f6c49279, 
         #f6d09280
     );
-    flex: 1;
+    width: 450px;
     border: 3px solid black;
     padding: 24px;
-    margin: 12px;
+    box-shadow: -4px 4px 12px #CEAAAA;
+    margin: 50px;
     border-radius: 12px;
     text-align: center;
 }
@@ -81,4 +83,14 @@ body {
 .card img {
     width: 100%;
     object-fit: cover;
+    border-radius: 15px;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card p {
+    font-size: 18px;
 }
