@@ -217,33 +217,33 @@ Tablet Media Query
 */
 @media screen and (max-width: 1000px) and (min-width: 801px) {
     #grid-layout {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
+    #grid-layout h1 {
+        font-size: 25px;
     }
 
     #nav {
-       flex-wrap: wrap;
-       align-items: center;
-    }
-
-    #h1 {
-        font-size: 40px;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }
 
 /*
 Cellphone Media Query
 */
-@media screen and (max-width: 800px) and (min-width: 400px) {
+@media screen and (max-width: 800px) {
     #grid-layout {
-
+        grid-template-columns: 1fr;
     }
 
-    #nav {
-       flex-wrap: wrap;
-       align-items: center;
+    #search-bar,
+    #search-button {
+        display: none;
     }
 
-    #h1 {
+    h1 {
         font-size: 20px;
     }
 }

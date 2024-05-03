@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar {
+    background: linear-gradient(to 
+        bottom, 
+        #f6a192,
+        #f6a192,
+        #f6c492, 
+        #f6cf92,
+        #f6d992
+    );
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 6px solid black;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#pet-hero {
+    background-image: url(../images/pexels-lum3n-44775-406014.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+}
+
+#pet-hero h1 {
+    font-family: "", sans-serif;
+    margin: 0px;
+    font-size: 70px;
+}
+
+#pet-hero p {
+    margin: 10px 0px 20px;
+    font-size: 2vw;
+}
