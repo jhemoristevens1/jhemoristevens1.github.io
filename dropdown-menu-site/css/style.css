@@ -57,3 +57,28 @@ body {
     margin: 10px 0px 20px;
     font-size: 2vw;
 }
+
+#cards-container {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    background: linear-gradient(to 
+        bottom, 
+        #f6a19285,
+        #f6c49279, 
+        #f6d09280
+    );
+    flex: 1;
+    border: 3px solid black;
+    padding: 24px;
+    margin: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
