@@ -46,6 +46,16 @@ body {
 
 .dropdown-menu {
     position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5,
+        visibility 0.5s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
 }
 
 .dropdown-menu a {
