@@ -31,6 +31,7 @@ body {
 }
 
 #navbar a {
+    display: inline-block;
     text-decoration: none;
     color: white;
     padding: 15px;
@@ -40,6 +41,39 @@ body {
 #navbar #logo {
     margin-right: auto;
     font-family: "Mochiy Pop One", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(
+        to top,
+        #f6a192,
+        #f6a192,
+        #f6c492, 
+        #f6cf92,
+        #f6d992
+    );
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+}
+
+.dropdown-menu a {
+    background-color: #f6a192;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #f6d992;
 }
 
 #pet-hero {
