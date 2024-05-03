@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/nick-fewings-_uYKQgWkMS0-unsplash.jpg);
+    background-image: url(../images/pexels-babydov-7788657.jpg);
     background-position: center;
 }
 
@@ -59,10 +59,11 @@ body {
 
 #pet-hero p {
     margin: 10px 0px 20px;
-    font-size: 2vw;
+    font-size: 3vw;
+    font-weight: bold;
 }
 
-#cards-container {
+#card-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +80,7 @@ body {
     border: 3px solid black;
     padding: 24px;
     box-shadow: -4px 4px 12px #000000;
-    margin: 50px auto;
+    margin: 50px;
     border-radius: 12px;
     text-align: center;
 }
@@ -100,6 +101,39 @@ body {
     font-size: 18px;
 }
 
-@media screen and () {
-    
+@media screen and (max-width: 786px) and (min-width: 480px) {
+    #header {
+        position: static;
+        top: 0px;
+    }
+
+    #navbar {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #card-container {
+        text-align: center;
+        align-items: center;
+    }
+
+    #card-container h2 {
+        font-size: 24px;
+    }
+
+    #pet-hero h1 {
+        font-size: 40px;
+    }
+
+    #pet-hero p {
+        font-size: 4vw;
+        font-weight: bold;
+    }
 }
