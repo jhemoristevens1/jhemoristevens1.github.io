@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: #78459B;
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    padding: 24px;
+    text-decoration: none;
+    color: #331E56;
+    font-weight: bold;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar img {
+    width: 100px;
+}
+
+#navbar a:hover {
+    background-color: #ba8bda;
+    color: white;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5,
+        visibility 0.5s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #78459B;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #ba8bda;
+}
+
+#home-hero {
+    background-image: url(../images/pexels-horizon-content-2100060-3763816.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#home-hero h1 {
+    font-family: "Mochiy Pop One", sans-serif;
+    margin: 0px;
+    font-size: 70px;
+}
+
+#home-hero p {
+    margin: 10px 0px 20px;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#home-hero .btn {
+    display: inline-block;
+    border: 2px solid #331E56;
+    border-radius: 20px;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #78459B;
+    color: #331E56;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+} 
+
+#home-hero .btn:hover {
+    background-color: #ba8bda;
+    color: white;
+}
+
+#footer {
+    background-color: #CE529E;
+    color: #560084;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-bottom {
+    background-color: #78459B;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-bottom a {
+    text-decoration: none;
+    color: #331E56;
+    padding: 12px 36px;
+    font-weight: bold;
+}
