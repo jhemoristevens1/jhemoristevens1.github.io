@@ -84,6 +84,7 @@ body {
     padding: 0px 24px;
     border: 3px solid #331E56;
     margin: 10px;
+    border-radius: 5px;
 }
 
 #sidebar ul {
