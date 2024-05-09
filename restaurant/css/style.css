@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #AA89C1;
 }
 
 #grid-layout {
@@ -79,7 +80,7 @@ body {
 }
 
 #sidebar {
-    background-color: #73507F;
+    background-color: #78459B;
     grid-area: sidebar;
     padding: 0px 24px;
     border: 3px solid #331E56;
@@ -165,6 +166,7 @@ body {
     margin: 12px;
     border-radius: 12px;
     text-align: center;
+    background-color: #C996D6;
     font-weight: bold;
 }
 
@@ -181,6 +183,8 @@ body {
     border: 3px solid #331E56;
     padding: 12px;
     margin-top: 36px;
+    background-color: #78459B;
+    border-radius: 15px;
 }
 
 .card a {
@@ -192,6 +196,7 @@ body {
 
 .card a:hover {
     background-color: #ba8bda;
+    color: white;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
@@ -202,12 +207,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 3px solid #331E56;
 }
 
 #footer-bottom {
     background-color: #78459B;
     display: flex;
     justify-content: space-between;
+    border-top: 3px solid #331E56;
 }
 
 #footer-bottom a {
