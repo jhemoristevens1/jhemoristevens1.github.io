@@ -92,6 +92,10 @@ h2 {
     border: 3px solid #331E56;
     margin: 10px;
     border-radius: 5px;
+    width: 230px;
+    height: 160px;
+    position: sticky;
+    top: 14px;
 }
 
 #sidebar ul {
