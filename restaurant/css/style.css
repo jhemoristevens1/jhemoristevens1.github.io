@@ -111,7 +111,7 @@ body {
     background-image: url(../images/pexels-horizon-content-2100060-3763816.jpg);
     background-size: cover;
     height: 100vh;
-    background-position: center center;
+    background-position: left left;
     display: flex;
     align-items: center;
     color: white;
@@ -201,7 +201,7 @@ body {
     transform: translateY(-4px);
 }
 
-#footer {
+#foot {
     background-color: #CE529E;
     color: #560084;
     display: flex;
@@ -210,16 +210,71 @@ body {
     border-top: 3px solid #331E56;
 }
 
-#footer-bottom {
+#footer {
     background-color: #78459B;
-    display: flex;
-    justify-content: space-between;
+    color: white;
     border-top: 3px solid #331E56;
+    padding: 12px;
 }
 
-#footer-bottom a {
-    text-decoration: none;
+#footer h3 {
     color: #331E56;
-    padding: 12px 36px;
-    font-weight: bold;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #560084;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    color: #331E56;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
+@media screen and (max-width: 786px) and (min-width: 480px) {
+    #navbar {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #card-container {
+        text-align: center;
+        align-items: center;
+    }
+
+    #card-container h2 {
+        font-size: 24px;
+    }
+
+    #home-hero h1 {
+        font-size: 40px;
+    }
+
+    #home-hero p {
+        font-size: 4vw;
+        font-weight: bold;
+    }
 }
