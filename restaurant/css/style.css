@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -7,10 +8,21 @@ body {
     font-family: sans-serif;
 }
 
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+        "navbar navbar"
+        "sidebar card-container"
+    ;
+}
+
 #navbar {
     background-color: #78459B;
     display: flex;
+    grid-area: navbar;
     align-items: center;
+    border-bottom: 3px solid #331E56;
 }
 
 #navbar a {
@@ -66,6 +78,33 @@ body {
     background: #ba8bda;
 }
 
+#sidebar {
+    background-color: #73507F;
+    grid-area: sidebar;
+    padding: 0px 24px;
+    border: 3px solid #331E56;
+    margin: 10px;
+}
+
+#sidebar ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #331E56;
+    padding: 12px;
+    display: block;
+    font-weight: bold;
+}
+
+#sidebar ul a:hover {
+    background-color: #ba8bda;
+    border-radius: 12px;
+}
+
 #home-hero {
     background-image: url(../images/pexels-horizon-content-2100060-3763816.jpg);
     background-size: cover;
@@ -77,14 +116,14 @@ body {
 }
 
 #home-hero h1 {
-    font-family: "Mochiy Pop One", sans-serif;
+    font-family: "Poetsen One", sans-serif;
     margin: 0px;
     font-size: 70px;
 }
 
 #home-hero p {
     margin: 10px 0px 20px;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: bold;
 }
 
@@ -107,6 +146,53 @@ body {
 #home-hero .btn:hover {
     background-color: #ba8bda;
     color: white;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #331E56;
+    padding: 24px;
+    color: #331E56;
+    margin: 12px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card a {
+    text-decoration: none;
+    color: #331E56;
+    display: block;
+    border: 3px solid #331E56;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.card a {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+.card a:hover {
+    background-color: #ba8bda;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
 }
 
 #footer {
