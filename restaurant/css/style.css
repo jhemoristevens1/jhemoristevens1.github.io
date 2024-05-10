@@ -119,33 +119,38 @@ h2 {
 
 #home-hero {
     background-image: url(../images/pexels-horizon-content-2100060-3763816.jpg);
-    background-size: cover;
     height: 100vh;
-    background-position: left left;
+    background-size: cover;
+    background-position: bottom;
     display: flex;
-    align-items: center;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
     color: white;
 }
 
 #home-hero h1 {
     font-family: "Poetsen One", sans-serif;
-    margin: 0px;
-    font-size: 70px;
+    font-size: 4vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
 }
 
 #home-hero p {
-    margin: 10px 0px 20px;
-    font-size: 2vw;
     font-weight: bold;
+    font-size: 2vw;
+    margin: 0px 5vw 0px 0px;
 }
 
 #home-hero .btn {
+    font-size: 1.5vw;
     display: inline-block;
-    border: 2px solid #331E56;
+    border: 3px solid #331E56;
     border-radius: 20px;
-    padding: 15px 55px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
+    margin: 5vh 5vw 10vh 0px;
     font-weight: bold;
     background-color: #78459B;
     color: #331E56;
