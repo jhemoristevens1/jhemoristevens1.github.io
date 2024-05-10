@@ -12,6 +12,22 @@ p{
     font-size: 40px;
 }
 
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
 .single-column {
     width: 50%;
     min-width: 500px;
@@ -60,6 +76,7 @@ p{
     background-color: #78459B;
     border-radius: 15px;
     margin: 3vh 2vw 4vh;
+    font-size: 36px;
 }
 
 .btn {
