@@ -262,10 +262,18 @@ h2 {
     padding: 8px 0px;
 }
 
-@media screen and (max-width: 786px) and (min-width: 480px) {
+@media screen and (max-width: 786px) and (min-width: 479px) {
+    #grid {
+        display: none;
+    }
+
     #navbar {
-        display: flex;
-        align-items: center;
+        position: static;
+        top: 0; 
+        left:0;
+        margin: 0px;
+        padding: 10px 70px 10px 70px;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -276,13 +284,18 @@ h2 {
         justify-content: center;
     }
 
+    #sidebar {
+        display: none;
+    }
+
     #cards-container {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
-    #cards-container h2 {
-        font-size: 24px;
+    .card {
+        max-width: 50%;
     }
 
     #home-hero h1 {
@@ -294,25 +307,19 @@ h2 {
         font-weight: bold;
     }
 
+    #foot {
+        display: none;
+    }
+
     #footer {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        flex-direction: column;
+        display: none;
     }
 
     #footer-navbar {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        flex-direction: row;
+        display: none;
     }
 
     #footer-columns-navbar {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        display: none;
     }
 }
